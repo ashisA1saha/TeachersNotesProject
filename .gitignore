@@ -1,0 +1,21 @@
+﻿# Dependencies
+**/node_modules/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+
+# Build files
+**/dist/
+**/build/
+
+# Local database session
+backend/MySQL Local.session.sql
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
